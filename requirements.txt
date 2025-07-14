@@ -1,0 +1,17 @@
+requests
+python-binance
+python-dotenv
+apscheduler
+pandas
+numpy
+tabulate
+pandas-ta
+selenium
+webdriver-manager
+rapidfuzz
+bs4
+openpyxl
+PyQt5
+qasync
+psutil
+unidecode

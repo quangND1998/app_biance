@@ -1,0 +1,62 @@
+2025-06-16 18:00:48,625 - P2P - INFO - Initializing Binance client with key: GLU3d...
+2025-06-16 18:00:48,769 - P2P - INFO - Binance client initialized successfully
+2025-06-16 18:00:49,099 - MyApp - INFO - Search text: ''
+2025-06-16 18:01:24,872 - P2P - INFO - Initializing Binance client with key: GLU3d...
+2025-06-16 18:01:25,058 - P2P - INFO - Binance client initialized successfully
+2025-06-16 18:01:25,059 - MainWindow - INFO - 🚀 Ứng dụng khởi động
+2025-06-16 18:01:25,314 - MainWindow - INFO - Đang làm mới danh sách giao dịch...
+2025-06-16 18:01:25,316 - MainWindow - INFO - Ngày đã chọn: 16/06/2025
+2025-06-16 18:01:25,318 - MainWindow - INFO - Đã tải 42 giao dịch từ storage.
+2025-06-16 18:01:25,320 - MainWindow - INFO - Gọi display_transaction_page. Trang hiện tại: 0
+2025-06-16 18:01:25,322 - MainWindow - INFO - Gọi get_filtered_transactions. Transaction cache: 42
+2025-06-16 18:01:25,324 - MainWindow - INFO - Cache ban đầu: 42 giao dịch
+2025-06-16 18:01:25,328 - MainWindow - INFO - Tổng số giao dịch sau khi lọc: 42
+2025-06-16 18:01:25,331 - MainWindow - INFO - Phạm vi hiển thị: từ 0 đến 20. Số hàng sẽ hiển thị: 20
+2025-06-16 18:01:25,335 - MainWindow - INFO - [REFRESH] Đã cập nhật danh sách giao dịch (42 giao dịch)
+2025-06-16 18:01:25,337 - MainWindow - INFO - [REFRESH] Đã tải lại dữ liệu giao dịch
+2025-06-16 18:01:25,343 - MainWindow - INFO - Gọi display_bank_page. Current page: 0
+2025-06-16 18:01:25,345 - MainWindow - INFO - Đang gọi get_filtered_banks. Bank cache: 63
+2025-06-16 18:01:25,347 - MainWindow - INFO - Search text: ''
+2025-06-16 18:01:25,347 - MainWindow - INFO - Search text: ''
+2025-06-16 18:01:25,347 - MainWindow - INFO - Trả về toàn bộ cache vì không có từ khóa tìm kiếm.
+2025-06-16 18:01:25,349 - MainWindow - INFO - Hiển thị từ 0 đến 20. Tổng số ngân hàng đã lọc: 63
+2025-06-16 18:01:25,352 - MainWindow - INFO - [SUCCESS] Đã tải 63 ngân hàng thành công
+2025-06-16 18:01:25,358 - MainWindow - INFO - Đang làm mới danh sách giao dịch...
+2025-06-16 18:01:25,359 - MainWindow - INFO - Ngày đã chọn: 16/06/2025
+2025-06-16 18:01:25,362 - MainWindow - INFO - Đã tải 42 giao dịch từ storage.
+2025-06-16 18:01:25,364 - MainWindow - INFO - Gọi display_transaction_page. Trang hiện tại: 0
+2025-06-16 18:01:25,365 - MainWindow - INFO - Gọi get_filtered_transactions. Transaction cache: 42
+2025-06-16 18:01:25,367 - MainWindow - INFO - Cache ban đầu: 42 giao dịch
+2025-06-16 18:01:25,368 - MainWindow - INFO - Tổng số giao dịch sau khi lọc: 42
+2025-06-16 18:01:25,369 - MainWindow - INFO - Phạm vi hiển thị: từ 0 đến 20. Số hàng sẽ hiển thị: 20
+2025-06-16 18:01:25,373 - MainWindow - INFO - [REFRESH] Đã cập nhật danh sách giao dịch (42 giao dịch)
+2025-06-16 18:02:08,557 - MainWindow - INFO - 🔚 Đóng ứng dụng...
+2025-06-16 18:02:14,136 - P2P - INFO - Initializing Binance client with key: GLU3d...
+2025-06-16 18:02:14,320 - P2P - INFO - Binance client initialized successfully
+2025-06-16 18:02:14 - MainWindow - INFO - Đang làm mới danh sách giao dịch...
+2025-06-16 18:02:14 - MainWindow - INFO - Ngày đã chọn: 16/06/2025
+2025-06-16 18:02:14 - MainWindow - INFO - Đã tải 42 giao dịch từ storage.
+2025-06-16 18:02:14 - MainWindow - INFO - Gọi display_transaction_page. Trang hiện tại: 0
+2025-06-16 18:02:14 - MainWindow - INFO - Gọi get_filtered_transactions. Transaction cache: 42
+2025-06-16 18:02:14 - MainWindow - INFO - Cache ban đầu: 42 giao dịch
+2025-06-16 18:02:14 - MainWindow - INFO - Tổng số giao dịch sau khi lọc: 42
+2025-06-16 18:02:14 - MainWindow - INFO - Phạm vi hiển thị: từ 0 đến 20. Số hàng sẽ hiển thị: 20
+2025-06-16 18:02:14 - MainWindow - INFO - [REFRESH] Đã cập nhật danh sách giao dịch (42 giao dịch)
+2025-06-16 18:02:14 - MainWindow - INFO - [REFRESH] Đã tải lại dữ liệu giao dịch
+2025-06-16 18:02:14 - MainWindow - INFO - Gọi display_bank_page. Current page: 0
+2025-06-16 18:02:14 - MainWindow - INFO - Đang gọi get_filtered_banks. Bank cache: 63
+2025-06-16 18:02:14 - MainWindow - INFO - Search text: ''
+2025-06-16 18:02:14,632 - MainWindow - INFO - Search text: ''
+2025-06-16 18:02:14 - MainWindow - INFO - Trả về toàn bộ cache vì không có từ khóa tìm kiếm.
+2025-06-16 18:02:14 - MainWindow - INFO - Hiển thị từ 0 đến 20. Tổng số ngân hàng đã lọc: 63
+2025-06-16 18:02:14 - MainWindow - INFO - [SUCCESS] Đã tải 63 ngân hàng thành công
+2025-06-16 18:02:14 - MainWindow - INFO - Đang làm mới danh sách giao dịch...
+2025-06-16 18:02:14 - MainWindow - INFO - Ngày đã chọn: 16/06/2025
+2025-06-16 18:02:14 - MainWindow - INFO - Đã tải 42 giao dịch từ storage.
+2025-06-16 18:02:14 - MainWindow - INFO - Gọi display_transaction_page. Trang hiện tại: 0
+2025-06-16 18:02:14 - MainWindow - INFO - Gọi get_filtered_transactions. Transaction cache: 42
+2025-06-16 18:02:14 - MainWindow - INFO - Cache ban đầu: 42 giao dịch
+2025-06-16 18:02:14 - MainWindow - INFO - Tổng số giao dịch sau khi lọc: 42
+2025-06-16 18:02:14 - MainWindow - INFO - Phạm vi hiển thị: từ 0 đến 20. Số hàng sẽ hiển thị: 20
+2025-06-16 18:02:14 - MainWindow - INFO - [REFRESH] Đã cập nhật danh sách giao dịch (42 giao dịch)
+2025-06-16 18:03:24 - MainWindow - INFO - 🔚 Đóng ứng dụng...
