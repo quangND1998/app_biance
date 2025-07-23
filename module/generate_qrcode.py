@@ -150,6 +150,7 @@ def get_nganhang_id(name_bank: str) -> str:
         with open(bank_dict_path, 'r', encoding="utf-8") as f:
             banks = json.load(f)
             name_bank_norm = normalize_text(name_bank)
+          
             # 1. So khớp chính xác với key
             for key in banks.keys():
                 if normalize_text(key) == name_bank_norm:
@@ -186,7 +187,7 @@ def get_nganhang_id(name_bank: str) -> str:
             result = find_best_match(name_bank, list(all_candidates))
             if result:
                 match_text, score = result
-                if score >= 75.3:
+                if score >= 66:
                     logger.info(f"Best fuzzy match: {match_text} (accuracy: {score})")
                     # Tìm ra ngân hàng chứa match_text
                     for info in banks.values():
@@ -232,7 +233,7 @@ def find_best_match(query, choices):
         norm_map = {normalize_text(c): c for c in choices}
         norm_choices = list(norm_map.keys())
 
-        match = process.extractOne(norm_query, norm_choices)
+        match = process.extractOne(norm_query, norm_choices, scorer=fuzz.token_sort_ratio)
         if match:
             matched_norm, score, _ = match  # <- FIX: unpack đúng 3 phần tử
             original_match = norm_map[matched_norm]
@@ -275,7 +276,7 @@ if __name__ == '__main__':
     banks_to_test = [
         "Vietinbank",
         "Vietcombank",
-        "Teckcombank",  # Sai chính tả
+        "Teckcombanh",  # Sai chính tả
         "MB Bank",
         "ACB",
         "TPBank",
@@ -287,7 +288,11 @@ if __name__ == '__main__':
         'Ngân hàng TMCP Công thương Việt Nam (Vietcombank)'
         'VCB-Vietcombank',
         'VietBank',
-        'Ngân hàng Thương mại cổ phần Quân đội'
+        'Ngân hàng Thương mại cổ phần Quân đội',
+        'MB',
+        'Ngân hàng TMCP Việt nam thịnh Vượng',
+        'Vietcombank',
+        'Vietinbank'
 
         # 'ABC bank'
     ]

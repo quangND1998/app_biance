@@ -142,6 +142,8 @@ class P2PBinance:
                 if not acqid_bank:
                     self.logger.error(f"❌ Không tìm được mã ngân hàng cho: {bank_name}. Vẫn lưu transaction với trạng thái lỗi.")
                     transaction_info['qr_error'] = "Không tìm được mã ngân hàng"
+                    qr_image = generate_vietqr()
+                    qr_bytes = qr_image.getvalue()
                     t3 = time.time()
                     qr_path = self.storage.save_transaction(transaction_info, None, "ERROR_BANK_NAME")
                     t4 = time.time()
